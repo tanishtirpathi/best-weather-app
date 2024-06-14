@@ -187,11 +187,11 @@ function changeBackground(condition) {
   const body = document.querySelector("body");
   let bg = "";
   if (condition === "partly-cloudy-day") {
-    bg = "dark.jpg";
-  } else if (condition === "partly-cloudy-night") {
     bg = "cloud.jpg";
+  } else if (condition === "partly-cloudy-night") {
+    bg = "dark.jpg";
   } else if (condition === "rain") {
-    bg = "https://i.ibb.co/h2p6Yhd/rain.webp";
+    bg = "cloud.jpg";
   } else if (condition === "clear-day") {
     bg = "day.avif";
   } else if (condition === "clear-night") {

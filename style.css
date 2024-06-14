@@ -21,8 +21,8 @@ body {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("./images/cd.jpg");
   background-size: cover;
-  background-position: center;
-  transition: background-image 0.3s ease;
+  background-position: cover;
+  transition: background-image 0.1s ease;
 }
 img {
   width: 100%;
